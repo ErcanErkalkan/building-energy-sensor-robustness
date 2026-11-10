@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-09",
+  "dataset": "SmartlivingEPC 10.5281/zenodo.15781077",
+  "research_status": "Post-V13 exploratory external site replication with explicit schema-driven protocol amendment, not model transfer",
+  "target": "positive or zero first difference of cumulative kWh on exactly consecutive 1-h energy readings",
+  "sensor_aggregation": "mean sensor observations (t - 1 hour, t] ; no future sensor data",
+  "clock": "naive provided timestamp; no documented timezone harmonization",
+  "model": "each site trained independently; not zero-shot",
+  "features": "calendar, plus two co-sited T/RH sensor devices (four channels)",
+  "selection": "two devices by train availability; no outcome data",
+  "split": "first 60%, next 20%, last 20% of valid hourly target readings; complete-case subset each partition",
+  "mask": "identical complete-case test timestamps; exactly 2/4 channels per affected timestamp; 6-h coherent group vs hourly rotating group; equal per-device marginals; 3 random seeds",
+  "limitations": [
+    "cumulative electricity target is not same as UCI contemporaneous 10-minute appliance use",
+    "post-hoc exploratory protocol adaptation after inspecting schema, no untouched test preregistration",
+    "incomplete natural sensor coverage and complete-case selection",
+    "small number of sites, no population inference",
+    "mixed-use and city hall excluded due multi-meter ambiguity; public lighting no environmental sensors",
+    "naive timezone with DST ambiguity",
+    "meter negative differences discarded; positive spikes not clipped",
+    "two co-sited devices chosen based on training availability only"
+  ]
+}

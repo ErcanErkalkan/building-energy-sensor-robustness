@@ -1,0 +1,52 @@
+{
+  "status": "post-hoc exploratory chronological sensitivity, not independent external validation",
+  "source_sha256_csv": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+  "n_data": 19735,
+  "fold_proportions": [
+    [
+      0.35,
+      0.4,
+      0.5
+    ],
+    [
+      0.45,
+      0.5,
+      0.6
+    ],
+    [
+      0.55,
+      0.6,
+      0.7
+    ],
+    [
+      0.65,
+      0.7,
+      0.8
+    ]
+  ],
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "n_folds": 4,
+  "models": [
+    "Ridge",
+    "HistGradientBoosting"
+  ],
+  "n_candidates_per_family_and_group": 2,
+  "n_baseline_rows": 20,
+  "n_topology_run_rows": 48,
+  "affected_per_fold_and_seed": 540,
+  "per_sensor_missing_per_seed": 180,
+  "n_channels": 18,
+  "validation": "parameters fit on earlier training and chosen via immediately next validation segment only; no future leakage",
+  "no_test_80_100": "Original 80-100 percent terminal test segment not used in this V12 check",
+  "limits": [
+    "Same house and known source; folds not independently acquired",
+    "Overlapping expanding training periods; no fold-level independent sampling assumptions",
+    "No retrospective hypothesis or model-selection revision can make this confirmatory",
+    "Masks simulated, 6 channel groups not 18-channel common failure",
+    "Cross-dataset candidate SmartlivingEPC not downloaded/validated"
+  ]
+}

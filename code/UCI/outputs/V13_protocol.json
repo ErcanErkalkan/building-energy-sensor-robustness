@@ -1,0 +1,20 @@
+{
+  "label": "post-hoc exploratory grouping sensitivity only",
+  "source_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+  "n_measurements": 19735,
+  "n_folds": 4,
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "n_groupings": 10,
+  "n_masks": 120,
+  "n_paired_contrasts": 480,
+  "grouping": "identity + 9 fixed pseudo-random channel permutations for each seed",
+  "same_masks": "each pair matches affected timestamps, missing channels per affected row, and per-channel missingness",
+  "source_models": "V12 selected full-feature regressors; selected using earlier validation only",
+  "no_final_80_100_pct": "No observation in original final 20% is used in this extension",
+  "uncertainty": "No inferential confidence intervals computed; permutations and rolling folds are not independent research sites",
+  "external_validation": "NOT PERFORMED; SmartlivingEPC raw data not available in runtime"
+}

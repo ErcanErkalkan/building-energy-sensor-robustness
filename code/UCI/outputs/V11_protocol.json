@@ -1,0 +1,37 @@
+{
+  "analysis": "V11 exact-marginal paired time-exposure sensitivity",
+  "source_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+  "n_total": 19735,
+  "n_train": 11841,
+  "n_validation": 3947,
+  "n_test": 3947,
+  "time_step_minutes": 10,
+  "affected_blocks": 33,
+  "block_len": 36,
+  "n_affected_per_seed": 1188,
+  "sensors": 18,
+  "missing_channels_per_affected_timestamp": 6,
+  "per_channel_missing": 396,
+  "mask_seed_list": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "fit_parameters": "V9 validation-only full-feature group winners, no test-based tuning",
+  "n_models": 3,
+  "n_imputation_methods": 2,
+  "n_run_rows": 60,
+  "n_pairs": 6,
+  "bootstrap_blocks_readings": 144,
+  "bootstrap_repetitions": 2000,
+  "limitations": [
+    "One residential series; no new independent holdout",
+    "Masks simulated; matched marginal rates do not emulate all-channel common outage",
+    "Results are post-hoc exploratory; confidence limits conditional on masks and data",
+    "Outdoor T6/RH_6 are counted among local channels"
+  ],
+  "python": "3.13.5",
+  "sklearn": "1.8.0"
+}

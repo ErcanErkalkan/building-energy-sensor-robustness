@@ -1,0 +1,4 @@
+model,feature_group,selected_candidate,parameters,validation_MAE_Wh,test_MAE_Wh,test_RMSE_Wh,test_P95_AE_Wh,training_n,validation_n,test_n,selection_rule
+HistGradientBoosting,weather_calendar,3,"{""l2_regularization"": 5.0, ""learning_rate"": 0.03, ""max_iter"": 150, ""max_leaf_nodes"": 15}",47.9773603286104,43.866273358039635,87.93717178693481,171.71819600705632,11841,3947,3947,lowest validation MAE among four candidates
+RandomForest,calendar_only,1,"{""max_depth"": 8, ""min_samples_leaf"": 8, ""n_estimators"": 60}",51.850775613258506,49.681464621434344,89.78719756842072,178.0436903952992,11841,3947,3947,lowest validation MAE among four candidates
+Ridge,weather_calendar,4,"{""alpha"": 100.0}",49.49183415992122,45.13416216584959,91.43305590855746,199.38881519111965,11841,3947,3947,lowest validation MAE among four candidates

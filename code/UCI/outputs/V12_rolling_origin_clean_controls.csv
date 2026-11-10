@@ -1,0 +1,21 @@
+fold,model,features,train_end,validation_end,eval_end,n_eval,validation_MAE_Wh,eval_MAE_Wh,eval_RMSE_Wh,selected_params
+1,TrainingMedian,none,6907,7894,9867,1973,48.91590678824721,55.2204764318297,117.05739123774161,{}
+1,Ridge,weather_calendar,6907,7894,9867,1973,57.9337547669222,53.53179852795765,104.50602583000352,"{""alpha"": 1.0}"
+1,Ridge,full_sensor_weather_calendar,6907,7894,9867,1973,50.42402132108259,74.07605719724255,114.3463810496938,"{""alpha"": 100.0}"
+1,HistGradientBoosting,weather_calendar,6907,7894,9867,1973,55.463276981668564,54.524561844801596,99.75739155433399,"{""l2_regularization"": 1.0, ""learning_rate"": 0.07, ""max_iter"": 110, ""max_leaf_nodes"": 20}"
+1,HistGradientBoosting,full_sensor_weather_calendar,6907,7894,9867,1973,57.59428733062524,55.18594178530641,99.577383778555,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"
+2,TrainingMedian,none,8880,9867,11841,1974,60.243161094224924,41.646403242147926,94.14334066566788,{}
+2,Ridge,weather_calendar,8880,9867,11841,1974,56.55710446693645,44.01077695668761,83.0656788210505,"{""alpha"": 1.0}"
+2,Ridge,full_sensor_weather_calendar,8880,9867,11841,1974,65.14454669755503,48.941793742751905,87.70318274877114,"{""alpha"": 100.0}"
+2,HistGradientBoosting,weather_calendar,8880,9867,11841,1974,53.920831180151914,42.744594686128266,80.84154385689698,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"
+2,HistGradientBoosting,full_sensor_weather_calendar,8880,9867,11841,1974,52.24034561549331,45.697587686213005,83.64678044453393,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"
+3,TrainingMedian,none,10854,11841,13814,1973,31.236068895643363,54.5159655347187,121.82428165439028,{}
+3,Ridge,weather_calendar,10854,11841,13814,1973,38.09455144330453,51.692471157487894,107.14017867044724,"{""alpha"": 100.0}"
+3,Ridge,full_sensor_weather_calendar,10854,11841,13814,1973,37.473900726304365,56.80358045273367,102.01562183554962,"{""alpha"": 100.0}"
+3,HistGradientBoosting,weather_calendar,10854,11841,13814,1973,40.014342682881576,53.57050353982819,104.67207838211806,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"
+3,HistGradientBoosting,full_sensor_weather_calendar,10854,11841,13814,1973,44.90919921119239,64.70364882451172,104.91424354353994,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"
+4,TrainingMedian,none,12827,13814,15788,1974,45.20770010131712,42.234042553191486,98.22100465181856,{}
+4,Ridge,weather_calendar,12827,13814,15788,1974,49.489300794520986,49.38825393515511,90.63443528745677,"{""alpha"": 1.0}"
+4,Ridge,full_sensor_weather_calendar,12827,13814,15788,1974,56.483794852081566,58.492951923999854,88.15473463074173,"{""alpha"": 100.0}"
+4,HistGradientBoosting,weather_calendar,12827,13814,15788,1974,60.14814789068803,47.79280294294274,86.93090714427952,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"
+4,HistGradientBoosting,full_sensor_weather_calendar,12827,13814,15788,1974,61.58714248192154,54.0920431905235,93.95317612853708,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}"

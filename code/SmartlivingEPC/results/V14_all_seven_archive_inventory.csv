@@ -1,0 +1,8 @@
+building,archive_available,sha256,csv_files,energy_meters,temp_channels,humidity_channels,co2_channels,pm25_channels,eligible
+Single Family House,True,160e19277dc8f9c1afa5e5cd3fb593cc5726d2b362620ff2257ce5f810fa474a,8,1,2,2,1,2,True
+Private flat,True,f699b9a130781655c8134282614e6ac4ae5fef9dbce433a0577d92c68ac800b4,9,1,2,2,2,2,True
+School,True,77ce6471a3c0c8b6fe2494e7d3b86118dacbb7f7d33d5fbe949f2a208b42bc67,15,1,3,3,3,3,True
+Sports Center,True,d3e8f691a5818063342983e771ac68242da51e746df9dd14d8c1cc7ceb9f1f2e,14,1,3,3,3,3,True
+Mixed-use building,True,9c15428a8ad7deeafb0b8a053373354fd082a8ff8c7ab59e69e0f55a46546c01,14,2,3,3,3,3,False
+City hall,True,d46f1478387134bda465df4e2182110984f65005f27264e28d49596acbb2b6b4,16,7,2,2,2,2,False
+Public lighting,True,7f6b1d5d1ffab2965107f2773c552a93fb12782f0efb73e3408fb0d3fcc3a62a,4,4,0,0,0,0,False

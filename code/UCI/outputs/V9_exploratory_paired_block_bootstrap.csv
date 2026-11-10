@@ -1,0 +1,4 @@
+model,feature_group,tuned_minus_median_MAE_Wh,CI95_low_Wh,CI95_high_Wh,direction
+HistGradientBoosting,weather_calendar,0.5878340370363454,-3.4827412780438474,5.5069826365539,positive means training-median control has lower test MAE
+RandomForest,calendar_only,6.403025300431047,1.9216670297371825,12.678227766980182,positive means training-median control has lower test MAE
+Ridge,weather_calendar,1.8557228448462866,-1.4470454768341632,5.5337647102408525,positive means training-median control has lower test MAE

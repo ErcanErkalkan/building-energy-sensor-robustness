@@ -1,0 +1,37 @@
+model,feature_group,candidate,params,validation_MAE_Wh,validation_RMSE_Wh,fit_seconds
+Ridge,calendar_only,1,"{""alpha"": 0.1}",51.76809680608908,97.74515422511612,0.005217512999990959
+Ridge,calendar_only,2,"{""alpha"": 1.0}",51.76750262242158,97.74507913158398,0.002375605999986874
+Ridge,calendar_only,3,"{""alpha"": 10.0}",51.76160192622709,97.74433303125451,0.0020635160000210817
+Ridge,calendar_only,4,"{""alpha"": 100.0}",51.70387975093623,97.73734801639974,0.003397081999992224
+Ridge,weather_calendar,1,"{""alpha"": 0.1}",49.689684283849,100.466987105109,0.0029235499999913372
+Ridge,weather_calendar,2,"{""alpha"": 1.0}",49.66819632085138,100.41840611199763,0.002938883000012993
+Ridge,weather_calendar,3,"{""alpha"": 10.0}",49.57719402064768,100.14082416169784,0.003002418999983547
+Ridge,weather_calendar,4,"{""alpha"": 100.0}",49.49183415992122,99.72615575708652,0.0027449110000361543
+Ridge,full_sensor_weather_calendar,1,"{""alpha"": 0.1}",55.05729065092436,95.75483045316932,0.008529216999988876
+Ridge,full_sensor_weather_calendar,2,"{""alpha"": 1.0}",55.03681209489823,95.70275407183446,0.007026355999983025
+Ridge,full_sensor_weather_calendar,3,"{""alpha"": 10.0}",54.92319186983764,95.42768607863388,0.004735627999991721
+Ridge,full_sensor_weather_calendar,4,"{""alpha"": 100.0}",53.792996149134524,94.70898659135547,0.005324923999978637
+RandomForest,calendar_only,1,"{""max_depth"": 8, ""min_samples_leaf"": 8, ""n_estimators"": 60}",51.850775613258506,98.23693673974773,0.19580120000000534
+RandomForest,calendar_only,2,"{""max_depth"": 12, ""min_samples_leaf"": 4, ""n_estimators"": 60}",52.80098086870714,99.3754095836846,0.2555197970000336
+RandomForest,calendar_only,3,"{""max_depth"": 16, ""min_samples_leaf"": 2, ""n_estimators"": 60}",52.96525839049598,99.58055263153724,0.27485776899999337
+RandomForest,calendar_only,4,"{""max_depth"": null, ""min_samples_leaf"": 8, ""n_estimators"": 60}",52.57135121965439,99.02698659806387,0.26732140000001436
+RandomForest,weather_calendar,1,"{""max_depth"": 8, ""min_samples_leaf"": 8, ""n_estimators"": 60}",53.020116663332786,100.37860615579051,0.9468930740000019
+RandomForest,weather_calendar,2,"{""max_depth"": 12, ""min_samples_leaf"": 4, ""n_estimators"": 60}",57.137669434331755,104.154584919105,1.2953231399999936
+RandomForest,weather_calendar,3,"{""max_depth"": 16, ""min_samples_leaf"": 2, ""n_estimators"": 60}",60.84780356603605,107.19093605438987,1.5459958179999944
+RandomForest,weather_calendar,4,"{""max_depth"": null, ""min_samples_leaf"": 8, ""n_estimators"": 60}",54.481360074481856,101.609020217948,1.3882568550000087
+RandomForest,full_sensor_weather_calendar,1,"{""max_depth"": 8, ""min_samples_leaf"": 8, ""n_estimators"": 60}",57.87814040380248,98.32433842437531,2.899694103999991
+RandomForest,full_sensor_weather_calendar,2,"{""max_depth"": 12, ""min_samples_leaf"": 4, ""n_estimators"": 60}",65.37057489460615,105.08725817597683,4.077192255
+RandomForest,full_sensor_weather_calendar,3,"{""max_depth"": 16, ""min_samples_leaf"": 2, ""n_estimators"": 60}",72.2808091486798,111.61305748573638,5.15684276799999
+RandomForest,full_sensor_weather_calendar,4,"{""max_depth"": null, ""min_samples_leaf"": 8, ""n_estimators"": 60}",61.858483151312974,101.08571681932027,4.84980045399999
+HistGradientBoosting,calendar_only,1,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}",50.419526053847164,96.6390964411795,0.09042607800000724
+HistGradientBoosting,calendar_only,2,"{""l2_regularization"": 1.0, ""learning_rate"": 0.07, ""max_iter"": 110, ""max_leaf_nodes"": 20}",50.30436378347555,96.78978878168061,0.06924748699998418
+HistGradientBoosting,calendar_only,3,"{""l2_regularization"": 5.0, ""learning_rate"": 0.03, ""max_iter"": 150, ""max_leaf_nodes"": 15}",50.16752295192844,96.5201415878036,0.10699536599997828
+HistGradientBoosting,calendar_only,4,"{""l2_regularization"": 0.1, ""learning_rate"": 0.1, ""max_iter"": 80, ""max_leaf_nodes"": 31}",50.65849217234633,97.12993773294085,0.06487870699999121
+HistGradientBoosting,weather_calendar,1,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}",48.35401086707707,96.76990942791639,0.10263583500000095
+HistGradientBoosting,weather_calendar,2,"{""l2_regularization"": 1.0, ""learning_rate"": 0.07, ""max_iter"": 110, ""max_leaf_nodes"": 20}",50.16559646927127,98.98269961725852,0.14742667699999856
+HistGradientBoosting,weather_calendar,3,"{""l2_regularization"": 5.0, ""learning_rate"": 0.03, ""max_iter"": 150, ""max_leaf_nodes"": 15}",47.9773603286104,96.83844310775822,0.17375829900004192
+HistGradientBoosting,weather_calendar,4,"{""l2_regularization"": 0.1, ""learning_rate"": 0.1, ""max_iter"": 80, ""max_leaf_nodes"": 31}",52.25590236444082,98.64875306755566,0.15062943800000994
+HistGradientBoosting,full_sensor_weather_calendar,1,"{""l2_regularization"": 1.0, ""learning_rate"": 0.05, ""max_iter"": 80, ""max_leaf_nodes"": 15}",54.80782827297298,93.83131898775319,0.18219817100003866
+HistGradientBoosting,full_sensor_weather_calendar,2,"{""l2_regularization"": 1.0, ""learning_rate"": 0.07, ""max_iter"": 110, ""max_leaf_nodes"": 20}",53.72791858487864,95.12403232351443,0.2465822749999802
+HistGradientBoosting,full_sensor_weather_calendar,3,"{""l2_regularization"": 5.0, ""learning_rate"": 0.03, ""max_iter"": 150, ""max_leaf_nodes"": 15}",53.3306575265626,92.94118355016876,0.30693869399999585
+HistGradientBoosting,full_sensor_weather_calendar,4,"{""l2_regularization"": 0.1, ""learning_rate"": 0.1, ""max_iter"": 80, ""max_leaf_nodes"": 31}",55.930050909490156,97.8435430842284,0.2570895339999879
